@@ -8,8 +8,8 @@ public class TESTNG {
 		@Test(invocationCount = 5)
 		public void test()
 		{
-			Reporter.log("signup");
+			Reporter.log("signup",true);
+			
 		}
 
 	}
-
