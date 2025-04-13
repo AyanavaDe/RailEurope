@@ -2,6 +2,8 @@ package office_testNG;
 
 
 
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import java.io.FileInputStream;

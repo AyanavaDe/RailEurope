@@ -3,6 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="Trezy_Generic.Trezy">
+        <methods>
+          <include name="CloseApp"/>
+          <include name="OpenApp"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- Trezy_Generic.Trezy -->
       <class name="Generic_office.B2B_sandbox">
         <methods>
           <include name="test1"/>
@@ -10,6 +17,12 @@
           <include name="CloseApp"/>
         </methods>
       </class> <!-- Generic_office.B2B_sandbox -->
+      <class name="office_testNG.Sandbox">
+        <methods>
+          <include name="test"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- office_testNG.Sandbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

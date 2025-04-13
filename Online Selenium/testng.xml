@@ -3,7 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Generic_office.B2B_sandbox"/>
+      <class name="Trezy_Generic.Trezy"/>
       <class name="test.TESTNG"/>
+      <class name="office_testNG.Sandbox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
